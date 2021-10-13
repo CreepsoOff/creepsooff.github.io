@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    box-sizing: border-box;
+}
+
+.nav_wrapper {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+.nav_wrapper .icon {
+    display: none;
+}
+
+.nav_button {
+    float: left;
+}
+
+.nav_button a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_button:hover {
+    background-color: rgb(73, 73, 73);
+
+}
+
+.container {
+    background-image: url("../images/toussain.jpg");
+/* POURQUOI ON FAIT PAS UN SITE GITHUB DIRECT ?*/
+}
+
+#eg1 {
+    background-image: url("../images/easter_eggs1.jpg");
+}
+
+
+
+footer {
+    text-justify: center;
+
+}
