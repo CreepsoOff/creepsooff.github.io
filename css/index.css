@@ -24,7 +24,6 @@ a.icon {
 }
 
 .nav_button {
-    float: left;
 }
 
 .nav_button a{
@@ -41,14 +40,29 @@ a.icon {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 15px;
+}
+
+.quotes {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 15px;
+    background-color: rgba(139, 139, 139, 0.472);
+    border-radius: 5px;
     
+}
+
+.quotes > q, i {
+    color: white;
 }
 
 #eg1 {
     background-image: url("../images/easter_eggs1.jpg");
 }
-
-
 
 footer {
     position: fixed;
@@ -59,4 +73,11 @@ footer {
     text-transform: uppercase;
     text-align: center;
     z-index: 999999;
+}
+
+
+@media screen and (max-width: 1020px) {
+    .nav_button {
+        float: none;
+    }
 }
