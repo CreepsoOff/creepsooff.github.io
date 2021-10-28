@@ -51,7 +51,8 @@ a.icon {
     text-align: center;
     font-size: 1.3em;
     padding: 15px;
-    background-color: rgba(139, 139, 139, 0.472);
+    line-height: 1.5em;
+    background-color: rgba(105, 105, 105, 0.472);
     border-radius: 5px;
     
 }
