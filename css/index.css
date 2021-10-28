@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("../images/wp_1.jpg");
+}
+
 .nav_wrapper {
     list-style-type: none;
     margin: 0;
@@ -37,8 +41,7 @@ a.icon {
 }
 
 .container {
-    background-image: url("../images/wp_1.jpg*");
-
+    
 }
 
 #eg1 {
