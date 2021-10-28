@@ -51,6 +51,12 @@ a.icon {
 
 
 footer {
-    text-justify: center;
-
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(92, 92, 92, 0.247);
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 999999;
 }
