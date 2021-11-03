@@ -77,6 +77,17 @@ footer {
     z-index: 999999;
 }
 
+/* ------------BACKGROUNDS--------------
+
+#bg_example {
+        background-image: url("../images/nom_de_limage");
+}
+
+*/
+
+
+
+
 
 @media screen and (max-width: 1020px) {
     .nav_button {
