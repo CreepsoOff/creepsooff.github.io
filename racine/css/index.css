@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    box-sizing: border-box;
+}
+
+.nav_wrapper {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+a.icon {
+    display: none;
+}
+
+.nav_button a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_button:hover {
+    background-color: rgba(151, 151, 151, 0.5);
+
+}
+
+
+.padding15 {
+    padding: 1.5em;
+}
+
+h1 {
+    color: white;
+    background-color: rgba(151, 151, 151, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 15px;
+}
+
+.youtube {
+    padding: 1.5em;
+}
+
+iframe {
+    padding-bottom: 1.2em;
+}
+
+.quotes {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 15px;
+    line-height: 1.5em;
+    background-color: rgba(105, 105, 105, 0.472);
+    border-radius: 5px;
+
+}
+
+.quotes>q,
+i {
+    color: white;
+}
+
+#eg1 {
+    background-image: url("../images/easter_eggs1.jpg");
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 15px;
+    line-height: 1.5em;
+    background-color: rgba(105, 105, 105, 0.472);
+    border-radius: 5px;
+}
+
+
+.card {
+
+    padding: 15px;
+    background-color: #191a19;
+    border-radius: 5px;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 1.2em;
+    transition: all 0.5s ease-in-out;
+}
+
+.card_img {
+    padding: 15px;
+    background-color: #191a19;
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 1.2em;
+    transition: all 0.5s ease-in-out;
+}
+
+#p_index {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 1.5em;
+    line-height: 1.5em;
+    background-color: rgba(105, 105, 105, 0.472);
+    border-radius: 5px;
+    margin-top: 1.2em;
+    max-height: auto;
+    max-width: 1300px;
+    color: white;
+    margin-bottom: 1.2em;
+}
+
+
+
+
+/* ------------BACKGROUNDS--------------
+
+#bg_example {
+        background-image: url("../images/nom_de_limage");
+}
+
+*/
+body#monstre {
+    background: center / cover no-repeat url("../images/wp_3.jpg");
+}
+
+body#personnage {
+    background: center / cover no-repeat url("../images/wp_2.jpg");
+}
+
+body#bg_velen {
+    background: center / cover no-repeat url("../images/velen_wp.jpg");
+}
+
+body#bg_toussaint {
+    background: center / cover no-repeat url("../images/toussain_wp.jpg");
+}
+
+body#bg_skellige {
+    background: center / cover no-repeat url("../images/skellige_wp.jpg");
+}
+
+body#bg_novigrade {
+    background: center / cover no-repeat url("../images/skellige_wp.jpg");
+}
+
+body#bg_blanchefleur {
+    background: center / cover no-repeat url("../images/blanche_fleur_wp.jpg");
+}
+
+body#bg_base {
+    background: center / cover no-repeat url("../images/wp_1.jpg");
+}
+
+
+@media screen and (max-width: 1020px) {
+
+    body#monstre {
+        background: center / cover no-repeat url("../images/wp_3.jpg");
+    }
+
+    .card {
+        width: 50%;
+        height: 50%;
+    }
+
+    .card_img {
+        width: 100%;
+        height: 100%;
+    }
+
+    html, body {
+        overflow-y: auto;
+    }
+}
