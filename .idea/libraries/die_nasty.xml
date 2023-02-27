@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="die_nasty">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/autres/die_nasty.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
