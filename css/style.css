@@ -1,0 +1,119 @@
+html, body {
+  background-color: black;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto Mono, monospace;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 0;
+  min-height: 2rem;
+}
+
+.nav > li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+
+.nav > li > a {
+  text-decoration: none;
+  color: #EEEEEE;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav > li > a.active {
+  color: #d9c0a9;
+}
+
+.nav > li > a:hover {
+  color: #d9c0a9;
+}
+
+.nav > li > a:focus {
+  color: #bba491;
+}
+
+.nav > li > a:hover img {
+  filter: invert(60%) sepia(49%) saturate(213%) hue-rotate(327deg) brightness(150%) contrast(92%);
+
+}
+
+.nav > li > a:focus img {
+  filter: invert(60%) sepia(49%) saturate(213%) hue-rotate(327deg) brightness(150%) contrast(92%);
+}
+
+.nav > li > a img {
+  width: 2rem;
+  height: 2rem;
+  transition: filter 0.3s ease-in-out;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  justify-items: center;
+  min-height: 40vh; /* Hauteur à 100% de la hauteur de l'écran */
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+.main {
+  text-align: center;
+  width: 100%;
+  background-color: #000;
+}
+
+.creepsologo {
+  height: 25vw;
+  min-height: 300px;
+  border-radius: 50%;
+  transition: height 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+.white {
+  color: #fff;
+}
+
+.purplehover {
+  color: #c51dcd;
+}
+
+.purplehover:hover {
+  color: #7f1485;
+}
+
+.main p {
+  text-align: left;
+  margin: 0 1rem;
+}
+
+
+
+.main p a {
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width: 1210px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .creepsologo {
+    align-self: center;
+    width: 25vw;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 50%;
+  }
+}
+
